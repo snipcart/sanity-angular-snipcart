@@ -17,7 +17,8 @@ export class ProductComponent implements OnInit {
   product: object;
 
   setProduct(id): void {
-    this.http.get(`https://7abtqvex.api.sanity.io/v1/data/query/products?query=*[id == "${id}"]`)
+    this.http
+        .get(`https://7abtqvex.api.sanity.io/v1/data/query/products?query=*[id == "${id}"]`)
         .subscribe(data => {
             this.product = data["result"][0];
         });

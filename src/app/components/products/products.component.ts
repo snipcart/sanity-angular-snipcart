@@ -13,7 +13,8 @@ export class ProductsComponent implements OnInit {
   products: object[];
 
   ngOnInit(): void {
-    this.http.get('https://7abtqvex.api.sanity.io/v1/data/query/products?query=*[is "product"]')
+    this.http
+      .get('https://7abtqvex.api.sanity.io/v1/data/query/products?query=*[is "product"]')
       .subscribe(data => {
         this.products = data["result"];
       });

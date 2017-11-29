@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+.header a {
+    text-decoration: none !important;
+    color: white;
+}
+  
+a:hover {
+    text-decoration:none;
+    cursor:pointer;
+}
