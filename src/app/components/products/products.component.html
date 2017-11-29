@@ -1,8 +1,8 @@
 <div class="products">
     <div *ngFor="let product of products" class="product">
         <a class="product" routerLink="product/{{ product.id }}">
-            <img src="{{ product.image }}" height="300"/>
-            <p>{{ product.name }}</p>
+            <img src="{{ product.image }}" height="200"/>
+            <p class="product-name">{{ product.name }}</p>
         </a>
         
         <button class="snipcart-add-item"

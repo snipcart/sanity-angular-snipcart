@@ -9,6 +9,12 @@
   padding-top: 5px;
 }
 
+.product-name {
+  font-size: 25;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .snipcart-checkout:hover{
   color: #3F51B5;
   text-decoration: underline;
