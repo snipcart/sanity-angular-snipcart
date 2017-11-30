@@ -1,4 +1,10 @@
-# SnipcartSanity
+# Headless e-commerce with Angular, Sanity, & Snipcart
+
+![angular-sanity-snipcart-ecommerce](https://snipcart.com/media/175900/angular-sanity-snipcart-headless-ecommerce.jpg)
+
+> [See live demo](https://snipcart-sanity-angular.netlify.com/)
+
+> [Read full tutorial](https://snipcart.com/blog/headless-angular-ecommerce-app)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
 
