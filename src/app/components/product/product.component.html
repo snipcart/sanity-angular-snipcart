@@ -1,11 +1,11 @@
 <div *ngIf="product" class="product">
-    <img src="{{ product.image }}" height="400"/>
+    <img src="{{ product.imageUrl }}" height="400"/>
     <p>{{ product.name }}</p>
     
     <button class="snipcart-add-item"
     attr.data-item-name="{{ product.name }}"
-    attr.data-item-id="{{ product.id }}"
-    attr.data-item-image="{{ product.image }}"
+    attr.data-item-id="{{ product._id }}"
+    attr.data-item-image="{{ product.imageUrl }}"
     attr.data-item-price="{{ product.price }}"
     attr.data-item-description="{{ product.description }}"
     data-item-url='https://wt-4b2a879e3bb5c630d65bc12c99321764-0.run.webtask.io/sanity-parser'>

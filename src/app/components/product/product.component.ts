@@ -17,8 +17,10 @@ export class ProductComponent implements OnInit {
   product: object;
 
   setProduct(id): void {
+    var query = `*[_id == '${id}']{ name, _id, description, price, 'imageUrl': image.asset->url }`;
+
     this.http
-        .get(`https://7abtqvex.apicdn.sanity.io/v1/data/query/products?query=*[id == "${id}"]`)
+        .get(`https://7abtqvex.apicdn.sanity.io/v1/data/query/products?query=${query}`)
         .subscribe(data => {
             this.product = data["result"][0];
         });
