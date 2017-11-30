@@ -14,7 +14,7 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit(): void {
     this.http
-      .get('https://7abtqvex.api.sanity.io/v1/data/query/products?query=*[is "product"]')
+      .get('https://7abtqvex.apicdn.sanity.io/v1/data/query/products?query=*[is "product"]')
       .subscribe(data => {
         this.products = data["result"];
       });
