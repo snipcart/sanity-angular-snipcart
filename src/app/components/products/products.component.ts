@@ -14,7 +14,9 @@ export class ProductsComponent implements OnInit {
   products: object[];
 
   ngOnInit(): void {
-    var query = "*[_type == 'product']{ name, _id, description, price, 'imageUrl': image.asset->url }";
+    var query = encodeURIComponent(
+      "*[_type == 'product']{ name, _id, description, price, 'imageUrl': image.asset->url }"
+    );
 
     this.http
       .get(`https://7abtqvex.apicdn.sanity.io/v1/data/query/products?query=${query}`)
