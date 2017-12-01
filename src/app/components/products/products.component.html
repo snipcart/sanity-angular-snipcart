@@ -1,7 +1,7 @@
 <div class="products">
     <div *ngFor="let product of products" class="product">
         <a class="product" routerLink="product/{{ product._id }}">
-            <img src="{{ product.imageUrl }}" height="200"/>
+            <img src="{{ product.imageUrl }}?h=200" height="200"/>
             <p class="product-name">{{ product.name }}</p>
         </a>
 
