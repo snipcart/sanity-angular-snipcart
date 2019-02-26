@@ -2,31 +2,22 @@
 
 ![angular-sanity-snipcart-ecommerce](https://snipcart.com/media/175900/angular-sanity-snipcart-headless-ecommerce.jpg)
 
-> [See live demo](https://snipcart-sanity-angular.netlify.com/)
+Here I show how to enable Angular e-commerce on top of Sanity, a promising headless CMS. Some store features, like the shopping cart & back office, will be offloaded to Snipcart, our dev-first e-commerce solution.
+
+The tutorial covers how to:
+
+- Set up Sanity with a products schema (data modeling)
+- Input real products data in the headless CMS
+- Build an Angular app with appropriate components to display storefront
 
 > [Read full tutorial](https://snipcart.com/blog/headless-angular-ecommerce-app)
 
+> [See live demo](https://snipcart-sanity-angular.netlify.com/)
+
+Enjoy folks!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
